@@ -1,4 +1,4 @@
-<div id='product-component-1637573061359'></div>
+<div id='product-component-1637581580089'></div>
 <script type="text/javascript">
 /*<![CDATA[*/
 (function () {
@@ -27,21 +27,19 @@
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
         id: '6726124535948',
-        node: document.getElementById('product-component-1637573061359'),
+        node: document.getElementById('product-component-1637581580089'),
         moneyFormat: '%24%7B%7Bamount%7D%7D',
         options: {
   "product": {
     "styles": {
       "product": {
         "@media (min-width: 601px)": {
-          "max-width": "100%",
-          "margin-left": "0",
+          "max-width": "calc(25% - 20px)",
+          "margin-left": "20px",
           "margin-bottom": "50px"
-        },
-        "text-align": "left"
+        }
       },
       "title": {
-        "font-size": "26px",
         "color": "#01395e"
       },
       "button": {
@@ -66,27 +64,22 @@
         "padding-bottom": "16px"
       },
       "price": {
-        "font-size": "18px",
         "color": "#cb05ff"
       },
       "compareAt": {
-        "font-size": "15.299999999999999px",
         "color": "#cb05ff"
       },
       "unitPrice": {
-        "font-size": "15.299999999999999px",
         "color": "#cb05ff"
       }
     },
-    "layout": "horizontal",
     "contents": {
       "img": false,
-      "imgWithCarousel": true,
       "button": false,
       "buttonWithQuantity": true,
-      "description": true
+      "title": false,
+      "price": false
     },
-    "width": "100%",
     "text": {
       "button": "Add to cart"
     },
